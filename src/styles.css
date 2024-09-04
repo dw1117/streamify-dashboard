@@ -1,0 +1,19 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+  }
+  
+  .container {
+    max-width: 1200px;
+  }
+  
+  .table-auto th, td {
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+  }
+  
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
